@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <h1>CSS Font Control</h1>
+</head>
+
+<style>
+    #paragraph {
+        border-style: solid;
+        border-width: 8px;
+    }
+</style>
+
+<body>
+<div id="paragraph">
+    Paragraph to be altered.
+</div>
+
+<script type="text/javascript" src="practice2.js"></script>
+
+<p>Border Red (0-255)</p>
+<input type="text" id="border_red" value="">
+<br>
+<p>Border Green (0-255)</p>
+<input type="text" id="border_green" value="">
+<br>
+<p>Border Blue (0-255)</p>
+<input type="text" id="border_blue" value="">
+<br>
+<p>Paragraph Red (0-255)</p>
+<input type="text" id="paragraph_red" value="">
+<br>
+<p>Paragraph Green (0-255)</p>
+<input type="text" id="paragraph_green" value="">
+<br>
+<p>Paragraph Blue (0-255)</p>
+<input type="text" id="paragraph_blue" value="">
+<br>
+<p>Border Width</p>
+<input type="text" id="border_width" value="">
+<br><br>
+
+
+<button onclick="paragraph_edit()">Style the text</button>
+<br>
+</body>
+</html>
